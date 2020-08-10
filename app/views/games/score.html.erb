@@ -1,0 +1,6 @@
+<h1>Result</h1>
+<% if @output.last[-1] == "!" %>
+  <p><strong>Congratulations! </strong><%= @output %></p>
+  <% else %>
+  <p><%= @output %></p>
+  <% end %>
